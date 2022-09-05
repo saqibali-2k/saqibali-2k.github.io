@@ -183,3 +183,8 @@ footer {
 img {
   border: 3px solid #acacac;
 }
+
+.list-item-wrapper:hover{
+  border: 3px solid var(--darkMaincolor);
+  box-shadow: 4px 8px var(--darkMaincolor);
+}

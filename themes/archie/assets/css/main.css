@@ -333,3 +333,18 @@ table td{
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
 }
+
+.list-item {
+  padding: 0px 5px;
+}
+.list-item-wrapper {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 15px;
+  transition: 0.15s;
+}
+
+.list-item-wrapper:hover{
+  border: 3px solid var(--maincolor);
+  box-shadow: 4px 8px var(--maincolor);
+}
