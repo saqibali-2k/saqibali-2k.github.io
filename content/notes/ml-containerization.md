@@ -36,7 +36,7 @@ Thus far, containers haven't been a requirement. We don't need containers to dec
 
 With a container orchestration system, we can tune the ratio of trainer agents to self-play agents. The training process is easily adjusted to our hardware.
 
-## Conclusion
+# Conclusion
 
 These posts also serve as personal notes so lets lay it all out:
 1. We decoupled the self-play and model trainer agents

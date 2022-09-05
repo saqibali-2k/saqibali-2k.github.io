@@ -146,17 +146,22 @@ header {
 header .main {
   font-size: 1.5rem;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-size: 1.2rem;
   margin-top: 2em;
 }
 
+h2, h3, h4, h5, h6 {
+  font-size: 1.1rem;
+  margin-top: 2em;
+}
+
 h1::before { color: var(--maincolor); content: '# '; }
-h2::before { color: var(--maincolor); content: '## '; }
-h3::before { color: var(--maincolor); content: '### '; }
-h4::before { color: var(--maincolor); content: '#### '; }
+h2::before { color: var(--maincolor); content: '↳ '; }
+h3::before { color: var(--maincolor); content: '↳↳ '; }
+/* h4::before { color: var(--maincolor); content: '#### '; }
 h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; }
+h6::before { color: var(--maincolor); content: '###### '; } */
 
 .meta {
   color: rgb(117, 117, 117);
