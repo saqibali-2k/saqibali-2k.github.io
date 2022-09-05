@@ -33,8 +33,3 @@ weight = 2
 name = "tags"
 url = "/tags"
 weight = 3
-
-[[menu.main]]
-name = "about"
-url = "/about"
-weight = 4
