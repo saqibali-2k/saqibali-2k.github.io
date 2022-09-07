@@ -1,6 +1,6 @@
-baseURL = ''
+baseURL = 'localhost:1313'
 languageCode = 'en-us'
-title = ':evergreen_tree: Saqibs Notes'
+title = ":evergreen_tree: Saqib's Notes"
 theme = 'archie'
 copyright = 'Saqib Ali ©' 
 

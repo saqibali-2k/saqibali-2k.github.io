@@ -159,9 +159,6 @@ h2, h3, h4, h5, h6 {
 h1::before { color: var(--maincolor); content: '# '; }
 h2::before { color: var(--maincolor); content: '↳ '; }
 h3::before { color: var(--maincolor); content: '↳↳ '; }
-/* h4::before { color: var(--maincolor); content: '#### '; }
-h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; } */
 
 .meta {
   color: rgb(117, 117, 117);
