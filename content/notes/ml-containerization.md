@@ -5,11 +5,11 @@ draft: false
 tags: ['work', 'personal']
 ---
 
-After spending roughly 14 months at Red Hat working with a container focused team on container-focused projects, I've had a lot of fun. I've learned plenty too. Currently, there new ideas, about past projects, floating around in my head; so let's get them down on paper.
+After spending roughly 14 months at Red Hat working with a container focused team on container-focused projects, I've had a lot of fun. I've learned plenty too. I've got some new ideas about past projects floating around in my head; so let's get them down on paper.
 <!--more-->
 # Proposal
 
-I spent the better part of a summer working on [SelfLearningBots](https://github.com/saqibali-2k/SelfLearningBots) (I could've also picked a better name 😞). The idea was to provide a tool to make your own [Alpha-Zero](https://en.wikipedia.org/wiki/AlphaZero) like AI.
+I spent the better part of a summer working on [SelfLearningBots](https://github.com/saqibali-2k/SelfLearningBots) (I could've picked a better name 😞). The idea was to provide a tool to make your own [Alpha-Zero](https://en.wikipedia.org/wiki/AlphaZero) like AI.
 The user provides the game environment described by an interface, and as long as the game is two-player and non-deterministic, the AI will learn through self-play.
 
 I've come to realize that containerizing this application can:
