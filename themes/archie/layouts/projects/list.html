@@ -13,7 +13,7 @@
 				</div>
 				{{ $paginator := .Paginate (where (where .Site.RegularPages "Params.hidden" "ne" true) "Params.project" true) }}
 				{{ range $paginator.Pages }}
-                <div class="list-item-wrapper collapsible">
+                <div class="list-item-wrapper">
                     <section class="list-item">
                         <h1 class="title"><a href="{{ .Params.More }}">{{.Title}}</a></h1>
                         <time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
@@ -24,6 +24,8 @@
                                 <figcaption>{{ .Params.Caption }}</figcaption>
 							{{ end }}
                         </div>
+                        <a class="collapsible"> More<i data-feather="corner-right-down"></i>
+                        </a>
                         <div class="collapsible-content">
                             {{ .Content }}&hellip;
                             <div class="post-tags">

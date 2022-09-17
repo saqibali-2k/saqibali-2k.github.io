@@ -57,9 +57,9 @@ a {
   border-bottom: 3px solid var(--darkMaincolor);
   color: inherit;
 }
-a:hover {
-  background-color: var(--darkMaincolor);
-  color: black;
+a:hover, a.active {
+  background-color: var(--darkComplement);
+
 }
 
 .site-description a {
@@ -162,7 +162,7 @@ img {
   border: 3px solid #acacac;
 }
 
-.list-item-wrapper:hover{
+.list-item-wrapper:hover, .list-item-wrapper.active{
   border: 3px solid var(--darkMaincolor);
   box-shadow: 4px 8px var(--darkMaincolor);
 }

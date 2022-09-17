@@ -49,7 +49,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-a:hover {
+a:hover, a.active {
     background-color: var(--hovercolor);
     color: #fff;
 }
@@ -350,9 +350,14 @@ table td{
   transition: 0.2s ease-out;
 }
 
-.list-item-wrapper:hover{
+.list-item-wrapper:hover, .list-item-wrapper.active  {
   border: 3px solid var(--maincolor);
   box-shadow: 4px 8px var(--maincolor);
+}
+
+.collapsible{
+  cursor: pointer;
+  width: 100%;
 }
 
 .collapsible-content {

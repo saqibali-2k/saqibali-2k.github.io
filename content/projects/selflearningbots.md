@@ -26,3 +26,5 @@ tags: ["pytorch", "tensorflow", "google-cloud-platform"]
 - Limited resources for training (free GCP credits)
 - Generation of data is slow with python (plan on using a statically-typed language)
 - Current approach does not take advantage of distributed systems (but it can, see [note](/notes/ml-containerization/))
+
+[Github Link](https://github.com/saqibali-2k/SelfLearningBots)
