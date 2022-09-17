@@ -28,7 +28,7 @@ groups:
     - gym
     - videogames
 contact:
-  email: saqibsali00@gmail.com
+  email: saqibali.toronto@gmail.com
   linkedin: https://www.linkedin.com/in/saqib-ali-toronto/
   github: https://github.com/saqibali-2k/ 
 ```
