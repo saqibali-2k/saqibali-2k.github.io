@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+			
+			<main class="list">
+				<div class="site-description">
+					{{- if isset .Site.Params "subtitle" -}}
+					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
+					{{- end -}}
+				</div>
+				{{ $paginator := .Paginate (where (where .Site.RegularPages "Params.hidden" "ne" true) "Params.project" true) }}
+				{{ range $paginator.Pages }}
+                <div class="list-item-wrapper collapsible">
+                    <section class="list-item">
+                        <h1 class="title"><a href="{{ .Params.More }}">{{.Title}}</a></h1>
+                        <time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+                        <br><div class="description">
+                            <p>{{ .Params.Summary }}</p>
+							<img src="{{ .Params.Picture }}" height="300px" width="auto">
+                            {{ if isset .Params "caption" }}
+                                <figcaption>{{ .Params.Caption }}</figcaption>
+							{{ end }}
+                        </div>
+                        <div class="collapsible-content">
+                            {{ .Content }}&hellip;
+                            <div class="post-tags">
+                                {{ if ne .Type "page" }}
+                                {{ if gt .Params.tags 0 }}
+                                <nav class="nav tags">
+                                    <ul class="tags">
+                                        {{ range .Params.tags }}
+                                        <li><a >{{ . }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                </nav>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div> 
+                    </section>
+                </div>
+				{{ end }}
+				{{ template "partials/paginator.html" . }}
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+		
+	</body>
+</html>

@@ -9,6 +9,7 @@
 		{{ if eq .Site.Params.mode "toggle" -}}
         | <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
 		<script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
+		<script defer src="{{ .Site.BaseURL }}js/collapsible.js"></script>
 		{{ end }}
 	</nav>
 </header>
