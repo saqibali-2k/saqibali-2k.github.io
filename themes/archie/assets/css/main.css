@@ -353,6 +353,7 @@ table td{
 .list-item-wrapper:hover, .list-item-wrapper.active  {
   border: 3px solid var(--maincolor);
   box-shadow: 4px 8px var(--maincolor);
+  margin: -3px -4px;
 }
 
 .collapsible{
