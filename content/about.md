@@ -5,11 +5,10 @@ draft: False
 ---
 
 {{< myimg src="/imgs/about/pixArt.png" align="right" width="150px" height="auto" >}}
-<!-- {{< myimg src="/imgs/about/cropped.jpg" align="right" width="120px" height="auto" >}} -->
 
-I'm currently a Computer Science student at University of Toronto with an interest in AI. 
+I'm a student with an interest in AI and distributed computing, currently in my 4th year of Computer Science at University of Toronto. 
 
-I like to make things people would want to use and sometimes cool things that are not practical.
+I like to make tools that someone would want to use.
 
 That's pretty much it 😊.
 
