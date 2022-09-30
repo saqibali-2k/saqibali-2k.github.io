@@ -1,6 +1,6 @@
 ---
 title: "SelfLearningBots: AlphaZero-like AI"
-date: 2022-09-16T19:21:58-04:00
+date: 2021-09-16T19:21:58-04:00
 project: true
 summary:
     "'SelfLearningBots' is a library to create your own AlphaZero-like AI. The library allows one
