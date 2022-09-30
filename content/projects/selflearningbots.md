@@ -11,7 +11,7 @@ summary:
 picture: /imgs/projects/selflearningbots.gif
 caption:  I tested the library on connect4. This is a game the AI (red) played against me (yellow). The bot puts me into an unwinnable position.
 more: https://github.com/saqibali-2k/SelfLearningBots
-tags: ["pytorch", "tensorflow", "google-cloud-platform"]
+tags: ["PyTorch", "TensorFlow", "Google Cloud Platform"]
 ---
 ## Features
 - Uses multiprocessing to run multiple instances of self-play

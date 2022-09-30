@@ -6,6 +6,7 @@ copyright = 'Saqib Ali ©'
 
 [params]
 mode= "toggle"
+mainSections = ["notes"]
 
 [[params.social]]
 name = "GitHub"

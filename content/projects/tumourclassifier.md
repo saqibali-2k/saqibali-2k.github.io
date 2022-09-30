@@ -3,7 +3,7 @@ title: "Tumour Classifier"
 date: 2020-09-10T00:21:23-04:00
 project: true
 summary:
-    " A webapp that predicts whether an image of a skin tumor is benign or malignant.
+    " A webapp that predicts whether a skin tumour is benign or malignant from an image.
     "
 picture: /imgs/projects/tumourclassifier.gif
 more: https://github.com/saqibali-2k/TumourClassifier

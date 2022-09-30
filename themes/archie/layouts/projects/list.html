@@ -24,23 +24,23 @@
                                 <figcaption>{{ .Params.Caption }}</figcaption>
 							{{ end }}
                         </div>
+                        <div class="post-tags">
+                            {{ if ne .Type "page" }}
+                            {{ if gt .Params.tags 0 }}
+                            <nav class="nav tags">
+                                <ul class="tags">
+                                    {{ range .Params.tags }}
+                                    <li><a >{{ . }}</a></li>
+                                    {{ end }}
+                                </ul>
+                            </nav>
+                            {{ end }}
+                            {{ end }}
+                        </div>
                         <a class="collapsible"> More<i data-feather="corner-right-down"></i>
                         </a>
                         <div class="collapsible-content">
                             {{ .Content }}&hellip;
-                            <div class="post-tags">
-                                {{ if ne .Type "page" }}
-                                {{ if gt .Params.tags 0 }}
-                                <nav class="nav tags">
-                                    <ul class="tags">
-                                        {{ range .Params.tags }}
-                                        <li><a >{{ . }}</a></li>
-                                        {{ end }}
-                                    </ul>
-                                </nav>
-                                {{ end }}
-                                {{ end }}
-                            </div>
                         </div> 
                     </section>
                 </div>
